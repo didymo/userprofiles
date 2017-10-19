@@ -1,0 +1,230 @@
+uuid: e151ae1a-6744-4110-82a0-5fe78bac307d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.private_profile.private_profile.field_address
+    - field.field.private_profile.private_profile.field_address_state
+    - field.field.private_profile.private_profile.field_certifications
+    - field.field.private_profile.private_profile.field_certifications_state
+    - field.field.private_profile.private_profile.field_contact_email
+    - field.field.private_profile.private_profile.field_contact_email_state
+    - field.field.private_profile.private_profile.field_dob
+    - field.field.private_profile.private_profile.field_dob_state
+    - field.field.private_profile.private_profile.field_firstname
+    - field.field.private_profile.private_profile.field_firstname_state
+    - field.field.private_profile.private_profile.field_homephone
+    - field.field.private_profile.private_profile.field_homephone_state
+    - field.field.private_profile.private_profile.field_image
+    - field.field.private_profile.private_profile.field_image_state
+    - field.field.private_profile.private_profile.field_lastname
+    - field.field.private_profile.private_profile.field_lastname_state
+    - field.field.private_profile.private_profile.field_mobile
+    - field.field.private_profile.private_profile.field_mobile_state
+    - field.field.private_profile.private_profile.field_published
+    - field.field.private_profile.private_profile.field_role
+    - field.field.private_profile.private_profile.field_role_state
+    - field.field.private_profile.private_profile.field_userref
+  module:
+    - address
+    - datetime
+    - image
+    - user
+    - userprofiles
+_core:
+  default_config_hash: sJcpQFtp2hwc78kg76GmJ00VJlut5y6MPGzl0fVb2B8
+id: private_profile.private_profile.default
+targetEntityType: private_profile
+bundle: private_profile
+mode: default
+content:
+  field_address:
+    weight: 20
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+  field_address_state:
+    weight: 10
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_certifications:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_certifications_state:
+    weight: 11
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_contact_email:
+    weight: 25
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_contact_email_state:
+    weight: 24
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_dob:
+    weight: 21
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_dob_state:
+    weight: 12
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_firstname:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_firstname_state:
+    weight: 13
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_homephone:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_homephone_state:
+    weight: 14
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_image:
+    weight: 22
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_image_state:
+    weight: 26
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_lastname:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_lastname_state:
+    weight: 15
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_mobile:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_mobile_state:
+    weight: 16
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_published:
+    weight: 27
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_role:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_role_state:
+    weight: 17
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_userref:
+    weight: 19
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  name:
+    label: above
+    type: string
+    weight: -4
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  user_id:
+    label: hidden
+    type: author
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

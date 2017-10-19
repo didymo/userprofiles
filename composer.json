@@ -1,0 +1,12 @@
+{
+  "name": "didymo/userprofile-master",
+  "type": "drupal-module",
+  "description": "Service Club manage Profiles Drupal 8 module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/didymo/userprofile-master",
+  "minimum-stability": "dev",
+  "require": { 
+    "drupal/address": "~1.0"
+  }
+}

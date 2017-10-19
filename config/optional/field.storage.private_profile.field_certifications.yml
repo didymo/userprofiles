@@ -1,0 +1,23 @@
+uuid: 5e4f3f1b-831d-48fc-9cb0-2cafb9391a08
+langcode: en
+status: true
+dependencies:
+  module:
+    - userprofiles
+_core:
+  default_config_hash: LIZlFHM9I59f0lNyi-M5gCu5-t7VBPGTHbciNog0BC0
+id: private_profile.field_certifications
+field_name: field_certifications
+entity_type: private_profile
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

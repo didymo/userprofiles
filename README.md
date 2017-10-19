@@ -1,2 +1,2 @@
-# userprofile-master
-Service Club manage Profiles Drupal 8 module
+# userprofiles
+Drupal 8 module that handles user profiles and user data in accordance with Australian Privacy laws.

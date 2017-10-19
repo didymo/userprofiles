@@ -1,0 +1,42 @@
+# Private Profile routing definition
+private_profile.settings_tab:
+  route_name: private_profile.settings
+  title: 'Settings'
+  base_route: private_profile.settings
+entity.private_profile.canonical:
+  route_name: entity.private_profile.canonical
+  base_route: entity.private_profile.canonical
+  title: 'View'
+
+entity.private_profile.edit_form:
+  route_name: entity.private_profile.edit_form
+  base_route: entity.private_profile.canonical
+  title: Edit
+
+entity.private_profile.delete_form:
+  route_name:  entity.private_profile.delete_form
+  base_route:  entity.private_profile.canonical
+  title: Delete
+  weight: 10
+
+# Public Profile routing definition
+public_profile.settings_tab:
+  route_name: public_profile.settings
+  title: 'Settings'
+  base_route: public_profile.settings
+entity.public_profile.canonical:
+  route_name: entity.public_profile.canonical
+  base_route: entity.public_profile.canonical
+  title: 'View'
+
+entity.public_profile.edit_form:
+  route_name: entity.public_profile.edit_form
+  base_route: entity.public_profile.canonical
+  title: Edit
+
+entity.public_profile.delete_form:
+  route_name:  entity.public_profile.delete_form
+  base_route:  entity.public_profile.canonical
+  title: Delete
+  weight: 10
+

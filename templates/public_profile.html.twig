@@ -1,0 +1,22 @@
+{#
+/**
+ * @file public_profile.html.twig
+ * Default theme implementation to present Public Profile data.
+ *
+ * This template is used when viewing Public Profile pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_public_profile()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('public_profile') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

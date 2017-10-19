@@ -1,0 +1,20 @@
+uuid: ec4cb991-c2f0-4855-a45c-36862863a8dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - userprofiles
+_core:
+  default_config_hash: Hwdcyc4No2Lmz9VSOV9rZQHovr_VnGwVdPMv9z0AsB0
+id: public_profile.field_contact_email
+field_name: field_contact_email
+entity_type: public_profile
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

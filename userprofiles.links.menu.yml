@@ -1,0 +1,30 @@
+# Private Profile menu items definition
+entity.private_profile.collection:
+  title: 'Members Private Profile'
+  route_name: entity.private_profile.collection
+  description: 'List Private Profile entities'
+  parent: main
+  menu_name: main
+  weight: 100
+
+private_profile.admin.structure.settings:
+  title: Private Profile settings
+  description: 'Configure Private Profile entities'
+  route_name: private_profile.settings
+  parent: system.admin_structure
+
+
+# Public Profile menu items definition
+entity.public_profile.collection:
+  title: 'Members Public Profile'
+  route_name: entity.public_profile.collection
+  description: 'List Public Profile entities'
+  parent: main
+  menu_name: main
+  weight: 100
+
+public_profile.admin.structure.settings:
+  title: Public Profile settings
+  description: 'Configure Public Profile entities'
+  route_name: public_profile.settings
+  parent: system.admin_structure

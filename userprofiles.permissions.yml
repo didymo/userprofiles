@@ -1,0 +1,47 @@
+add private profile entities:
+  title: 'Create new Private Profile entities'
+
+administer private profile entities:
+  title: 'Administer Private Profile entities'
+  description: 'Allow to access the administration form to configure Private Profile entities.'
+  restrict access: true
+
+delete private profile entities:
+  title: 'Delete Private Profile entities'
+
+edit private profile entities:
+  title: 'Edit Private Profile entities'
+
+view published private profile entities:
+  title: 'View published Private Profile entities'
+
+view unpublished private profile entities:
+  title: 'View unpublished Private Profile entities'
+
+access content add profile:
+  title: 'Access the profile create form'
+
+access content entity controllers:
+  title: 'Access the blank entity generation controller'
+
+add public profile entities:
+  title: 'Create new Public Profile entities'
+
+administer public profile entities:
+  title: 'Administer Public Profile entities'
+  description: 'Allow to access the administration form to configure Public Profile entities.'
+  restrict access: true
+
+delete public profile entities:
+  title: 'Delete Public Profile entities'
+
+edit public profile entities:
+  title: 'Edit Public Profile entities'
+
+view published public profile entities:
+  title: 'View published Public Profile entities'
+
+view unpublished public profile entities:
+  title: 'View unpublished Public Profile entities'
+
+

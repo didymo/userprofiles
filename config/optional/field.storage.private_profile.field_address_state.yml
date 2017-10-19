@@ -1,0 +1,20 @@
+uuid: 4f4fcbb6-3faf-4bea-bdb2-f76d3b594873
+langcode: en
+status: true
+dependencies:
+  module:
+    - userprofiles
+_core:
+  default_config_hash: QiZIgOyO_KwJ8iP0Xw2KxJrk6A1dEX__8etNC7i5WHA
+id: private_profile.field_address_state
+field_name: field_address_state
+entity_type: private_profile
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
