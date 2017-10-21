@@ -7,7 +7,7 @@ dependencies:
     - image
     - userprofiles
 _core:
-  default_config_hash: BZCJb-eQRIG5qUcB_QvglVBhOGzu2EtUibRK8vT3zJM
+  default_config_hash: 3NP_KyBoK4mTJe3O5sPUVdfxYtg1-Dg-cvIh2s0ebi4
 id: private_profile.field_image
 field_name: field_image
 entity_type: private_profile

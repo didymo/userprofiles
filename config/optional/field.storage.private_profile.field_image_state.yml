@@ -5,7 +5,7 @@ dependencies:
   module:
     - userprofiles
 _core:
-  default_config_hash: XAIgqUZEx8FKCB21ahz0lcHLEiQALGIXJXZdSAzPxqw
+  default_config_hash: KG0OMlbRZx3bHBqGjQ45gkiW3-n1pSm7BFObVvTmf94
 id: private_profile.field_image_state
 field_name: field_image_state
 entity_type: private_profile

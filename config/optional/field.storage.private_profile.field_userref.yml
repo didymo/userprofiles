@@ -6,7 +6,7 @@ dependencies:
     - user
     - userprofiles
 _core:
-  default_config_hash: KG1-o1myfqMtUMSUQqcVF93w7fHTrkDu7drklcT6oA4
+  default_config_hash: Jr_Lt0VsmAaZevudkSaAGW84kP0l_oi9ZfIaYihHPJ4
 id: private_profile.field_userref
 field_name: field_userref
 entity_type: private_profile

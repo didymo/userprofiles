@@ -5,7 +5,7 @@ dependencies:
   module:
     - userprofiles
 _core:
-  default_config_hash: 4lz-IZwxibY_QjuXND9laN8IEX3riYsscMCJ_rjzWmI
+  default_config_hash: ek17c3cY0Y0qSL2rEFUAHaBqQ0P5o5pNB1JRCeV427Q
 id: private_profile.field_mobile_state
 field_name: field_mobile_state
 entity_type: private_profile
