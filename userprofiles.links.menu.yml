@@ -26,3 +26,24 @@ public_profile.admin.structure.settings:
   description: 'Configure Public Profile entities'
   route_name: public_profile.settings
   parent: system.admin_structure
+
+profile_list:
+  title: 'Profile List'
+  route_name: userprofile.profilelist
+  parent: main
+  menu_name: main
+  weight: 50
+
+userprofile_editprofile:
+  title: 'Edit profile'
+  route_name: userprofile.editprofile
+  parent: account
+  menu_name: account
+  weight: -10
+
+userprofile_createUser:
+  title: 'Add User'
+  route_name: userprofile.createUser
+  parent: account
+  menu_name: account
+  weight: -50

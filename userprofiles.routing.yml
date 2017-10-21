@@ -21,3 +21,24 @@ userprofiles.accessProfileLink:
     _controller: '\Drupal\userprofiles\Controller\BlankController::accessProfileLink'
   requirements:
     _permission: 'access content entity controllers'
+
+userprofile.profilelist:
+  path: '/profile-list'
+  defaults:
+    _title: 'Profile List'
+  requirements:
+    _permission: 'access content'
+
+userprofile.editprofile:
+  path: '/profile/accessProfile'
+  defaults:
+    _title: 'Edit profile'
+  requirements:
+    _permission: 'edit private profile entities'
+
+userprofile.createUser:
+  path: '/admin/people/create'
+  defaults:
+    _title: 'Add User'
+  requirements:
+    _permission: 'access content add profile'
