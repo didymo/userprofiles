@@ -3,8 +3,7 @@ entity.private_profile.collection:
   title: 'Members Private Profile'
   route_name: entity.private_profile.collection
   description: 'List Private Profile entities'
-  parent: main
-  menu_name: main
+  parent: system.admin_structure
   weight: 100
 
 private_profile.admin.structure.settings:
@@ -19,8 +18,7 @@ entity.public_profile.collection:
   title: 'Members Public Profile'
   route_name: entity.public_profile.collection
   description: 'List Public Profile entities'
-  parent: main
-  menu_name: main
+  parent: system.admin_structure
   weight: 100
 
 public_profile.admin.structure.settings:
