@@ -33,6 +33,7 @@ userprofile.editprofile:
   path: '/profile/accessProfile'
   defaults:
     _title: 'Edit profile'
+    _controller: '\Drupal\userprofiles\Controller\BlankController::accessProfileLink'
   requirements:
     _permission: 'edit private profile entities'
 
