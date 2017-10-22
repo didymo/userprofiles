@@ -1,4 +1,4 @@
-enable: 1
+enable: '1'
 rid_anonymous:
   enabled: '1'
   weigth: '0'
