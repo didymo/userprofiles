@@ -1,4 +1,4 @@
-enable: '1'
+enable: 1
 rid_anonymous:
   enabled: '1'
   weigth: '0'
@@ -12,3 +12,11 @@ rid_administrator:
   weigth: '-2'
   path: /home-admin
 home_link_path: home
+rid_rotary_members:
+  enabled: '1'
+  weigth: '0'
+  path: /home-members
+rid_rotary_friends:
+  enabled: '1'
+  weigth: '0'
+  path: /home-members
