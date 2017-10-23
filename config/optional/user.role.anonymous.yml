@@ -18,3 +18,5 @@ permissions:
   - 'search content'
   - 'subscribe to newsletters'
   - 'use text format restricted_html'
+  - 'view published private profile entities'
+  - 'view published public profile entities'
