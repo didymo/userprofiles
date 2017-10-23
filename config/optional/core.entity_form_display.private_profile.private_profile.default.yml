@@ -27,42 +27,31 @@ dependencies:
     - field.field.private_profile.private_profile.field_userref
     - image.style.thumbnail
   module:
-    - address
     - datetime
     - image
     - userprofiles
 _core:
-  default_config_hash: WK-QPmxhWL62IzoeRaYw5y5hfHEc4ickZLzmgDp6v2M
+  default_config_hash: 1LQlu1EgSeSV9i34QhLR4HdbQG-lSR9l5hcgWAT1QSs
 id: private_profile.private_profile.default
 targetEntityType: private_profile
 bundle: private_profile
 mode: default
 content:
-  field_address:
-    weight: 11
-    settings:
-      default_country: AU
-    third_party_settings: {  }
-    type: address_default
-  field_address_state:
-    weight: 10
-    settings:
-      display_label: false
-    third_party_settings: {  }
-    type: boolean_checkbox
   field_certifications:
-    weight: 19
+    weight: 17
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_certifications_state:
-    weight: 18
+    weight: 16
     settings:
       display_label: false
     third_party_settings: {  }
     type: boolean_checkbox
+    region: content
   field_contact_email:
     weight: 7
     settings:
@@ -70,23 +59,27 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: email_default
+    region: content
   field_contact_email_state:
     weight: 6
     settings:
       display_label: false
     third_party_settings: {  }
     type: boolean_checkbox
+    region: content
   field_dob:
     weight: 9
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
+    region: content
   field_dob_state:
     weight: 8
     settings:
       display_label: false
     third_party_settings: {  }
     type: boolean_checkbox
+    region: content
   field_firstname:
     weight: 3
     settings:
@@ -94,25 +87,29 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_firstname_state:
     weight: 2
     settings:
       display_label: false
     third_party_settings: {  }
     type: boolean_checkbox
+    region: content
   field_homephone:
-    weight: 13
+    weight: 11
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_homephone_state:
-    weight: 12
+    weight: 10
     settings:
       display_label: false
     third_party_settings: {  }
     type: boolean_checkbox
+    region: content
   field_image:
     weight: 1
     settings:
@@ -120,12 +117,14 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
   field_image_state:
     weight: 0
     settings:
       display_label: false
     third_party_settings: {  }
     type: boolean_checkbox
+    region: content
   field_lastname:
     weight: 5
     settings:
@@ -133,45 +132,48 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_lastname_state:
     weight: 4
     settings:
       display_label: false
     third_party_settings: {  }
     type: boolean_checkbox
+    region: content
   field_mobile:
+    weight: 13
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_mobile_state:
+    weight: 12
+    settings:
+      display_label: false
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_role:
     weight: 15
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
-  field_mobile_state:
+    region: content
+  field_role_state:
     weight: 14
     settings:
       display_label: false
     third_party_settings: {  }
     type: boolean_checkbox
-  field_published:
-    weight: 20
-    settings:
-      display_label: false
-    third_party_settings: {  }
-    type: boolean_checkbox
-  field_role:
-    weight: 17
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-  field_role_state:
-    weight: 16
-    settings:
-      display_label: false
-    third_party_settings: {  }
-    type: boolean_checkbox
+    region: content
 hidden:
+  field_address: true
+  field_address_state: true
+  field_published: true
   field_userref: true
   langcode: true
   name: true

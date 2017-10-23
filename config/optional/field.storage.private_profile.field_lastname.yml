@@ -5,7 +5,7 @@ dependencies:
   module:
     - userprofiles
 _core:
-  default_config_hash: KRqQmRK1eem-835MkX3lUmBoq52bmqTX9GvKOy5pQlY
+  default_config_hash: ZuWSzRz60mN3hfbnSTtVlHzN1m-e6RXLTHJDxbnQ9kI
 id: private_profile.field_lastname
 field_name: field_lastname
 entity_type: private_profile

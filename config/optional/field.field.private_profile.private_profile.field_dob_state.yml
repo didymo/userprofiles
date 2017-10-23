@@ -7,7 +7,7 @@ dependencies:
   module:
     - userprofiles
 _core:
-  default_config_hash: elMVTsP_9B72tv8wlLu0_3JfZV2dL2kvBBL5p_vmn8k
+  default_config_hash: n26nIKHCUj44u17BIdBgpe-4I-cZsvEHnBbnO6qCA_0
 id: private_profile.private_profile.field_dob_state
 field_name: field_dob_state
 entity_type: private_profile

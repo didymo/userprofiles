@@ -19,7 +19,7 @@ dependencies:
     - image
     - userprofiles
 _core:
-  default_config_hash: WLI77qpA5ZkbGIgKi4j-E9pja_ghth8HSK2n4cUBxq0
+  default_config_hash: TnOUPgqMuVujVSPhyxm7tOzXDo5lFjVcjVY93u_fvM0
 id: public_profile_view
 label: 'Public Profile View'
 module: views

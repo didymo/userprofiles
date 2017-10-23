@@ -1,0 +1,23 @@
+uuid: e6c9d820-3e54-465b-9371-b1b571cdeaa8
+langcode: en
+status: true
+dependencies: {  }
+id: rotary_friends
+label: 'Rotary Friends'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content add profile'
+  - 'add asset entities'
+  - 'add private profile entities'
+  - 'add public profile entities'
+  - 'administer private profile entities'
+  - 'administer public profile entities'
+  - 'delete private profile entities'
+  - 'delete public profile entities'
+  - 'edit private profile entities'
+  - 'edit public profile entities'
+  - 'view published private profile entities'
+  - 'view published public profile entities'
+  - 'view unpublished private profile entities'
+  - 'view unpublished public profile entities'

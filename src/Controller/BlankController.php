@@ -96,7 +96,7 @@ class BlankController extends ControllerBase {
         $private_profile = $query->execute()->fetchField();
 
         if($private_profile != null) {
-            $url = '/profile/' . $private_profile . '/edit';
+            $url = base_path() . '/profile/' . $private_profile . '/edit';
         }
         else{
             $url = '/';
