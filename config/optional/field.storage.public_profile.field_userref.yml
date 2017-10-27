@@ -4,7 +4,7 @@ status: true
 dependencies:
   module:
     - user
-    - userprofiles
+    - service_clubs_manage_profiles
 _core:
   default_config_hash: DBC8mibtQMd3544lvuFOoSdmiZuobwNPkE4zcxiLPGs
 id: public_profile.field_userref

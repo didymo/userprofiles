@@ -4,7 +4,7 @@ status: true
 dependencies:
   module:
     - datetime
-    - userprofiles
+    - service_clubs_manage_profiles
 _core:
   default_config_hash: Hdv8MuXB3JnAbkKW4hbc0sVGuFH2BV44c-KiRkvOLJo
 id: private_profile.field_dob

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\userprofiles;
+namespace Drupal\service_clubs_manage_profiles;
 
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Entity\Routing\AdminHtmlRouteProvider;
@@ -113,7 +113,7 @@ class PublicProfileHtmlRouteProvider extends AdminHtmlRouteProvider {
       $route = new Route("/admin/structure/{$entity_type->id()}/settings");
       $route
         ->setDefaults([
-          '_form' => 'Drupal\userprofiles\Form\PublicProfileSettingsForm',
+          '_form' => 'Drupal\service_clubs_manage_profiles\Form\PublicProfileSettingsForm',
           '_title' => "{$entity_type->getLabel()} settings",
         ])
         ->setRequirement('_permission', $entity_type->getAdminPermission())

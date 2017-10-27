@@ -4,7 +4,7 @@ status: true
 dependencies:
   module:
     - address
-    - userprofiles
+    - service_clubs_manage_profiles
 _core:
   default_config_hash: SfSAAQgheu6Eg4h_ceytgvBJkKmX8xCeObvNYaW6HmM
 id: private_profile.field_address

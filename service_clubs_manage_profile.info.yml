@@ -2,7 +2,7 @@ name: UserProfiles
 type: module
 description: 'Provides user the power of choosing what to display in their profile'
 core: 8.x
-package: Custom
+package: 'Service Clubs'
 dependencies:
     - address
     - datetime

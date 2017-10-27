@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - userprofiles
+    - service_clubs_manage_profiles
 _core:
   default_config_hash: 87tC-GOt3ETcnedEwggbYsQj-RW8AWRSKFbNnoB1q44
 id: private_profile.field_role_state

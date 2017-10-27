@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\userprofiles;
+namespace Drupal\service_clubs_manage_profiles;
 
 use Drupal\Core\Entity\ContentEntityInterface;
 use Drupal\Core\Entity\EntityChangedInterface;
@@ -9,7 +9,7 @@ use Drupal\user\EntityOwnerInterface;
 /**
  * Provides an interface for defining Public Profile entities.
  *
- * @ingroup userprofiles
+ * @ingroup service_clubs_manage_profiles
  */
 interface PublicProfileInterface extends ContentEntityInterface, EntityChangedInterface, EntityOwnerInterface {
 
@@ -27,7 +27,7 @@ interface PublicProfileInterface extends ContentEntityInterface, EntityChangedIn
    * @param string $name
    *   The Public Profile name.
    *
-   * @return \Drupal\userprofiles\PublicProfileInterface
+   * @return \Drupal\service_clubs_manage_profiles\PublicProfileInterface
    *   The called Public Profile entity.
    */
   public function setName($name);
@@ -46,7 +46,7 @@ interface PublicProfileInterface extends ContentEntityInterface, EntityChangedIn
    * @param int $timestamp
    *   The Public Profile creation timestamp.
    *
-   * @return \Drupal\userprofiles\PublicProfileInterface
+   * @return \Drupal\service_clubs_manage_profiles\PublicProfileInterface
    *   The called Public Profile entity.
    */
   public function setCreatedTime($timestamp);
@@ -67,7 +67,7 @@ interface PublicProfileInterface extends ContentEntityInterface, EntityChangedIn
    * @param bool $published
    *   TRUE to set to published, FALSE to set to unpublished.
    *
-   * @return \Drupal\userprofiles\PublicProfileInterface
+   * @return \Drupal\service_clubs_manage_profiles\PublicProfileInterface
    *   The called Public Profile entity.
    */
   public function setPublished($published);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\userprofiles\Form;
+namespace Drupal\service_clubs_manage_profiles\Form;
 
 use Drupal\Core\Entity\ContentEntityForm;
 use Drupal\Core\Form\FormStateInterface;
@@ -8,7 +8,7 @@ use Drupal\Core\Form\FormStateInterface;
 /**
  * Form controller for Public Profile edit forms.
  *
- * @ingroup userprofiles
+ * @ingroup service_clubs_manage_profiles
  */
 class PublicProfileForm extends ContentEntityForm {
 
@@ -16,7 +16,7 @@ class PublicProfileForm extends ContentEntityForm {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    /* @var $entity \Drupal\userprofiles\Entity\PublicProfile */
+    /* @var $entity \Drupal\service_clubs_manage_profiles\Entity\PublicProfile */
     $form = parent::buildForm($form, $form_state);
     $entity = $this->entity;
 

@@ -18,7 +18,7 @@ dependencies:
     - address
     - datetime
     - image
-    - userprofiles
+    - service_clubs_manage_profiles
 _core:
   default_config_hash: HcL0QE6rcMJRMP_wIRB1UR0F98THB-MWA4CV_VD7cTU
 id: public_profile.public_profile.default

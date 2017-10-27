@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\userprofiles;
+namespace Drupal\service_clubs_manage_profiles;
 
 use Drupal\Core\Entity\EntityAccessControlHandler;
 use Drupal\Core\Entity\EntityInterface;
@@ -10,7 +10,7 @@ use Drupal\Core\Access\AccessResult;
 /**
  * Access controller for the Public Profile entity.
  *
- * @see \Drupal\userprofiles\Entity\PublicProfile.
+ * @see \Drupal\service_clubs_manage_profiles\Entity\PublicProfile.
  */
 class PublicProfileAccessControlHandler extends EntityAccessControlHandler {
 
@@ -18,7 +18,7 @@ class PublicProfileAccessControlHandler extends EntityAccessControlHandler {
    * {@inheritdoc}
    */
   protected function checkAccess(EntityInterface $entity, $operation, AccountInterface $account) {
-    /** @var \Drupal\userprofiles\PublicProfileInterface $entity */
+    /** @var \Drupal\service_clubs_manage_profiles\PublicProfileInterface $entity */
     switch ($operation) {
       case 'view':
         if (!$entity->isPublished()) {

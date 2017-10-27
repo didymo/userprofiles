@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.private_profile.field_address_state
   module:
-    - userprofiles
+    - service_clubs_manage_profiles
 _core:
   default_config_hash: pYpvIaNwSBw9ZfeWVT2pgFrH_SYQZs_AN-mx4xkjnf4
 id: private_profile.private_profile.field_address_state

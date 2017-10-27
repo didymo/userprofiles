@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.public_profile.field_firstname
   module:
-    - userprofiles
+    - service_clubs_manage_profiles
 id: profile_list
 label: 'profile list'
 module: views
