@@ -22,14 +22,14 @@ service_clubs_manage_profile.accessProfileLink:
   requirements:
     _permission: 'access content entity controllers'
 
-userprofile.profilelist:
+service_clubs_manage_profile.profilelist:
   path: '/profile-list'
   defaults:
     _title: 'Profile List'
   requirements:
     _permission: 'access content'
 
-userprofile.editprofile:
+service_clubs_manage_profile.editprofile:
   path: '/profile/accessProfile'
   defaults:
     _title: 'Edit profile'
@@ -37,7 +37,7 @@ userprofile.editprofile:
   requirements:
     _permission: 'edit private profile entities'
 
-userprofile.createUser:
+service_clubs_manage_profile.createUser:
   path: '/admin/people/create'
   defaults:
     _title: 'Add User'

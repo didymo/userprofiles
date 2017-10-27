@@ -29,21 +29,21 @@ public_profile.admin.structure.settings:
 
 profile_list:
   title: 'Profile List'
-  route_name: userprofile.profilelist
+  route_name: service_clubs_manage_profile.profilelist
   parent: main
   menu_name: main
   weight: 50
 
 userprofile_editprofile:
   title: 'Edit profile'
-  route_name: userprofile.editprofile
+  route_name: service_clubs_manage_profile.editprofile
   parent: account
   menu_name: account
   weight: -10
 
 userprofile_createUser:
   title: 'Add User'
-  route_name: userprofile.createUser
+  route_name: service_clubs_manage_profile.createUser
   parent: account
   menu_name: account
   weight: -50
