@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.private_profile.field_firstname_state
   module:
-    - service_clubs_manage_profile
+    - userprofiles
 _core:
   default_config_hash: r55OTnojSYmFDuQL72GN2Z-9HH48VGF7eF_nDX1NSF8
 id: private_profile.private_profile.field_firstname_state

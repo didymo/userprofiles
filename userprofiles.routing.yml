@@ -1,43 +1,43 @@
-service_clubs_manage_profile.genblank:
+userprofiles.genblank:
   path: 'admin/people/profile/genblank'
   defaults:
     _title: 'Generate blank entites'
-    _controller: '\Drupal\service_clubs_manage_profile\Controller\BlankController::genblank'
+    _controller: '\Drupal\userprofiles\Controller\BlankController::genblank'
   requirements:
     _permission: 'access content entity controllers'
 
-service_clubs_manage_profile.removeDeleted:
+userprofiles.removeDeleted:
   path: 'admin/people/profile/removeDeleted'
   defaults:
     _title: 'Delete entites'
-    _controller: '\Drupal\service_clubs_manage_profile\Controller\BlankController::removeDeleted'
+    _controller: '\Drupal\userprofiles\Controller\BlankController::removeDeleted'
   requirements:
     _permission: 'access content entity controllers'
 
-service_clubs_manage_profile.accessProfileLink:
+userprofiles.accessProfileLink:
   path: '/profile/accessProfile'
   defaults:
     _title: 'Access Profile Link'
-    _controller: '\Drupal\service_clubs_manage_profile\Controller\BlankController::accessProfileLink'
+    _controller: '\Drupal\userprofiles\Controller\BlankController::accessProfileLink'
   requirements:
     _permission: 'access content entity controllers'
 
-service_clubs_manage_profile.profilelist:
+userprofiles.profilelist:
   path: '/profile-list'
   defaults:
     _title: 'Profile List'
   requirements:
     _permission: 'access content'
 
-service_clubs_manage_profile.editprofile:
+userprofiles.editprofile:
   path: '/profile/accessProfile'
   defaults:
     _title: 'Edit profile'
-    _controller: '\Drupal\service_clubs_manage_profile\Controller\BlankController::accessProfileLink'
+    _controller: '\Drupal\userprofiles\Controller\BlankController::accessProfileLink'
   requirements:
     _permission: 'edit private profile entities'
 
-service_clubs_manage_profile.createUser:
+userprofiles.createUser:
   path: '/admin/people/create'
   defaults:
     _title: 'Add User'

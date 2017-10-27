@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - service_clubs_manage_profile
+    - userprofiles
 _core:
   default_config_hash: 2JIExSUX-i9Xe_PZqKsiolHgy-8y37Cp16b9fXb0KXg
 id: private_profile.field_contact_email_state

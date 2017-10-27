@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - service_clubs_manage_profile
+    - userprofiles
 _core:
   default_config_hash: LdZg0AhZDHUEqkX4blAX6vpxrWUFU2xvePKU-LOpZvI
 id: private_profile.field_mobile

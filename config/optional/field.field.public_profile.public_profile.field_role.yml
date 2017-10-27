@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.public_profile.field_role
   module:
-    - service_clubs_manage_profile
+    - userprofiles
 _core:
   default_config_hash: iSFXvdYlUgu8hlKrUZZEPJ0XJaWanYDh2ZnpOsufEH4
 id: public_profile.public_profile.field_role

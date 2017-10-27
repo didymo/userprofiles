@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profile\Form;
+namespace Drupal\userprofiles\Form;
 
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
@@ -8,9 +8,9 @@ use Drupal\Core\Form\FormStateInterface;
 /**
  * Class PublicProfileSettingsForm.
  *
- * @package Drupal\service_clubs_manage_profile\Form
+ * @package Drupal\userprofiles\Form
  *
- * @ingroup service_clubs_manage_profile
+ * @ingroup userprofiles
  */
 class PublicProfileSettingsForm extends FormBase {
 

@@ -30,7 +30,7 @@ dependencies:
     - datetime
     - image
     - user
-    - service_clubs_manage_profile
+    - userprofiles
 _core:
   default_config_hash: sJcpQFtp2hwc78kg76GmJ00VJlut5y6MPGzl0fVb2B8
 id: private_profile.private_profile.default

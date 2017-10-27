@@ -1,37 +1,37 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profile\Entity;
+namespace Drupal\userprofiles\Entity;
 
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 use Drupal\Core\Entity\ContentEntityBase;
 use Drupal\Core\Entity\EntityChangedTrait;
 use Drupal\Core\Entity\EntityTypeInterface;
-use Drupal\service_clubs_manage_profile\PrivateProfileInterface;
+use Drupal\userprofiles\PrivateProfileInterface;
 use Drupal\user\UserInterface;
 
 /**
  * Defines the Private Profile entity.
  *
- * @ingroup service_clubs_manage_profile
+ * @ingroup userprofiles
  *
  * @ContentEntityType(
  *   id = "private_profile",
  *   label = @Translation("Private Profile"),
  *   handlers = {
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
- *     "list_builder" = "Drupal\service_clubs_manage_profile\PrivateProfileListBuilder",
- *     "views_data" = "Drupal\service_clubs_manage_profile\Entity\PrivateProfileViewsData",
+ *     "list_builder" = "Drupal\userprofiles\PrivateProfileListBuilder",
+ *     "views_data" = "Drupal\userprofiles\Entity\PrivateProfileViewsData",
  *
  *     "form" = {
- *       "default" = "Drupal\service_clubs_manage_profile\Form\PrivateProfileForm",
- *       "add" = "Drupal\service_clubs_manage_profile\Form\PrivateProfileForm",
- *       "edit" = "Drupal\service_clubs_manage_profile\Form\PrivateEditForm",
- *       "delete" = "Drupal\service_clubs_manage_profile\Form\PrivateProfileDeleteForm",
+ *       "default" = "Drupal\userprofiles\Form\PrivateProfileForm",
+ *       "add" = "Drupal\userprofiles\Form\PrivateProfileForm",
+ *       "edit" = "Drupal\userprofiles\Form\PrivateEditForm",
+ *       "delete" = "Drupal\userprofiles\Form\PrivateProfileDeleteForm",
  *     },
- *     "access" = "Drupal\service_clubs_manage_profile\PrivateProfileAccessControlHandler",
+ *     "access" = "Drupal\userprofiles\PrivateProfileAccessControlHandler",
  *     "route_provider" = {
- *       "html" = "Drupal\service_clubs_manage_profile\PrivateProfileHtmlRouteProvider",
+ *       "html" = "Drupal\userprofiles\PrivateProfileHtmlRouteProvider",
  *     },
  *   },
  *   base_table = "private_profile",

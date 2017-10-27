@@ -1,13 +1,13 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profile\Form;
+namespace Drupal\userprofiles\Form;
 
 use Drupal\Core\Entity\ContentEntityDeleteForm;
 
 /**
  * Provides a form for deleting Private Profile entities.
  *
- * @ingroup service_clubs_manage_profile
+ * @ingroup userprofiles
  */
 class PrivateProfileDeleteForm extends ContentEntityDeleteForm {
 

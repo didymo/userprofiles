@@ -1,37 +1,37 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profile\Entity;
+namespace Drupal\userprofiles\Entity;
 
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 use Drupal\Core\Entity\ContentEntityBase;
 use Drupal\Core\Entity\EntityChangedTrait;
 use Drupal\Core\Entity\EntityTypeInterface;
-use Drupal\service_clubs_manage_profile\PublicProfileInterface;
+use Drupal\userprofiles\PublicProfileInterface;
 use Drupal\user\UserInterface;
 
 /**
  * Defines the Public Profile entity.
  *
- * @ingroup service_clubs_manage_profile
+ * @ingroup userprofiles
  *
  * @ContentEntityType(
  *   id = "public_profile",
  *   label = @Translation("Public Profile"),
  *   handlers = {
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
- *     "list_builder" = "Drupal\service_clubs_manage_profile\PublicProfileListBuilder",
- *     "views_data" = "Drupal\service_clubs_manage_profile\Entity\PublicProfileViewsData",
+ *     "list_builder" = "Drupal\userprofiles\PublicProfileListBuilder",
+ *     "views_data" = "Drupal\userprofiles\Entity\PublicProfileViewsData",
  *
  *     "form" = {
- *       "default" = "Drupal\service_clubs_manage_profile\Form\PublicProfileForm",
- *       "add" = "Drupal\service_clubs_manage_profile\Form\PublicProfileForm",
- *       "edit" = "Drupal\service_clubs_manage_profile\Form\PublicProfileForm",
- *       "delete" = "Drupal\service_clubs_manage_profile\Form\PublicProfileDeleteForm",
+ *       "default" = "Drupal\userprofiles\Form\PublicProfileForm",
+ *       "add" = "Drupal\userprofiles\Form\PublicProfileForm",
+ *       "edit" = "Drupal\userprofiles\Form\PublicProfileForm",
+ *       "delete" = "Drupal\userprofiles\Form\PublicProfileDeleteForm",
  *     },
- *     "access" = "Drupal\service_clubs_manage_profile\PublicProfileAccessControlHandler",
+ *     "access" = "Drupal\userprofiles\PublicProfileAccessControlHandler",
  *     "route_provider" = {
- *       "html" = "Drupal\service_clubs_manage_profile\PublicProfileHtmlRouteProvider",
+ *       "html" = "Drupal\userprofiles\PublicProfileHtmlRouteProvider",
  *     },
  *   },
  *   base_table = "public_profile",
