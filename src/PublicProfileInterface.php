@@ -13,8 +13,6 @@ use Drupal\user\EntityOwnerInterface;
  */
 interface PublicProfileInterface extends ContentEntityInterface, EntityChangedInterface, EntityOwnerInterface {
 
-  // Add get/set methods for your configuration properties here.
-
   /**
    * Gets the Public Profile name.
    *
@@ -67,7 +65,7 @@ interface PublicProfileInterface extends ContentEntityInterface, EntityChangedIn
    * Sets the published status of a Public Profile.
    *
    * @param bool $published
-   *   TRUE to set this Public Profile to published, FALSE to set it to unpublished.
+   *   TRUE to set to published, FALSE to set to unpublished.
    *
    * @return \Drupal\userprofiles\PublicProfileInterface
    *   The called Public Profile entity.
