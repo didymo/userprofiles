@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="030b3ea5-d6af-456e-af90-e078be4c3c71" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/optional/service_clubs_manage_profile.profile.yml" afterPath="$PROJECT_DIR$/config/optional/userprofiles.profile.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/optional/service_clubs_manage_profile.profilecreate.yml" afterPath="$PROJECT_DIR$/config/optional/userprofiles.profilecreate.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.info.yml" afterPath="$PROJECT_DIR$/userprofiles.info.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.links.action.yml" afterPath="$PROJECT_DIR$/userprofiles.links.action.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.links.menu.yml" afterPath="$PROJECT_DIR$/userprofiles.links.menu.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.links.task.yml" afterPath="$PROJECT_DIR$/userprofiles.links.task.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.module" afterPath="$PROJECT_DIR$/userprofiles.module" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.permissions.yml" afterPath="$PROJECT_DIR$/userprofiles.permissions.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.routing.yml" afterPath="$PROJECT_DIR$/userprofiles.routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/install/service_clubs_manage_profile.profile.yml" afterPath="$PROJECT_DIR$/config/install/service_clubs_manage_profile.profile.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/install/service_clubs_manage_profile.profilecreate.yml" afterPath="$PROJECT_DIR$/config/install/service_clubs_manage_profile.profilecreate.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/core.entity_form_display.private_profile.private_profile.default.yml" afterPath="$PROJECT_DIR$/config/optional/core.entity_form_display.private_profile.private_profile.default.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/core.entity_form_display.public_profile.public_profile.default.yml" afterPath="$PROJECT_DIR$/config/optional/core.entity_form_display.public_profile.public_profile.default.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/core.entity_view_display.private_profile.private_profile.default.yml" afterPath="$PROJECT_DIR$/config/optional/core.entity_view_display.private_profile.private_profile.default.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/core.entity_view_display.public_profile.public_profile.default.yml" afterPath="$PROJECT_DIR$/config/optional/core.entity_view_display.public_profile.public_profile.default.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_address.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_address.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_address_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_address_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_certifications.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_certifications.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_certifications_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_certifications_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_contact_email.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_contact_email.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_contact_email_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_contact_email_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_dob.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_dob.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_dob_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_dob_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_firstname.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_firstname.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_firstname_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_firstname_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_homephone.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_homephone.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_homephone_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_homephone_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_image.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_image.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_image_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_image_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_lastname.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_lastname.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_lastname_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_lastname_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_mobile.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_mobile.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_mobile_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_mobile_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_published.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_published.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_role.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_role.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_role_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_role_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_userref.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_userref.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_address.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_address.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_certifications.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_certifications.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_contact_email.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_contact_email.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_dob.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_dob.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_firstname.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_firstname.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_homephone.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_homephone.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_image.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_image.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_lastname.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_lastname.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_mobile.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_mobile.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_role.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_role.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_userref.yml" afterPath="$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_userref.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_address.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_address.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_address_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_address_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_certifications.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_certifications.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_certifications_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_certifications_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_contact_email.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_contact_email.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_contact_email_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_contact_email_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_dob.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_dob.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_dob_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_dob_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_firstname.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_firstname.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_firstname_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_firstname_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_homephone.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_homephone.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_homephone_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_homephone_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_image.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_image.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_image_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_image_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_lastname.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_lastname.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_lastname_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_lastname_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_mobile.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_mobile.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_mobile_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_mobile_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_published.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_published.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_role.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_role.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_role_state.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_role_state.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_userref.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.private_profile.field_userref.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_address.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_address.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_certifications.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_certifications.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_contact_email.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_contact_email.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_dob.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_dob.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_firstname.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_firstname.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_homephone.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_homephone.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_image.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_image.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_lastname.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_lastname.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_mobile.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_mobile.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_role.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_role.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_userref.yml" afterPath="$PROJECT_DIR$/config/optional/field.storage.public_profile.field_userref.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/views.view.profile_list.yml" afterPath="$PROJECT_DIR$/config/optional/views.view.profile_list.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/optional/views.view.public_profile_view.yml" afterPath="$PROJECT_DIR$/config/optional/views.view.public_profile_view.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/BlankController.php" afterPath="$PROJECT_DIR$/src/Controller/BlankController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/PrivateProfile.php" afterPath="$PROJECT_DIR$/src/Entity/PrivateProfile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/PrivateProfileViewsData.php" afterPath="$PROJECT_DIR$/src/Entity/PrivateProfileViewsData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/PublicProfile.php" afterPath="$PROJECT_DIR$/src/Entity/PublicProfile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entity/PublicProfileViewsData.php" afterPath="$PROJECT_DIR$/src/Entity/PublicProfileViewsData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Form/PrivateProfileDeleteForm.php" afterPath="$PROJECT_DIR$/src/Form/PrivateProfileDeleteForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Form/PrivateProfileForm.php" afterPath="$PROJECT_DIR$/src/Form/PrivateProfileForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Form/PrivateProfileSettingsForm.php" afterPath="$PROJECT_DIR$/src/Form/PrivateProfileSettingsForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Form/PublicProfileDeleteForm.php" afterPath="$PROJECT_DIR$/src/Form/PublicProfileDeleteForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Form/PublicProfileForm.php" afterPath="$PROJECT_DIR$/src/Form/PublicProfileForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Form/PublicProfileSettingsForm.php" afterPath="$PROJECT_DIR$/src/Form/PublicProfileSettingsForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PrivateProfileAccessControlHandler.php" afterPath="$PROJECT_DIR$/src/PrivateProfileAccessControlHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PrivateProfileHtmlRouteProvider.php" afterPath="$PROJECT_DIR$/src/PrivateProfileHtmlRouteProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PrivateProfileInterface.php" afterPath="$PROJECT_DIR$/src/PrivateProfileInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PrivateProfileListBuilder.php" afterPath="$PROJECT_DIR$/src/PrivateProfileListBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PublicProfileAccessControlHandler.php" afterPath="$PROJECT_DIR$/src/PublicProfileAccessControlHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PublicProfileHtmlRouteProvider.php" afterPath="$PROJECT_DIR$/src/PublicProfileHtmlRouteProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PublicProfileInterface.php" afterPath="$PROJECT_DIR$/src/PublicProfileInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PublicProfileListBuilder.php" afterPath="$PROJECT_DIR$/src/PublicProfileListBuilder.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>C:\ProgramData\ComposerSetup\bin\composer</pharPath>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PrivateProfile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/PrivateProfile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="field.storage.public_profile.field_role.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/optional/field.storage.public_profile.field_role.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="field.storage.public_profile.field_userref.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/optional/field.storage.public_profile.field_userref.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-101">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>service_clubs_</find>
+      <find>service_clubs</find>
+      <find>service_club</find>
+      <find>service_club_</find>
+      <find>service_club_manage</find>
+      <find>service_club_manage_pro</find>
+      <find>service_club_manage_profile</find>
+      <find>user_profiles</find>
+      <find>user_profile</find>
+      <find>user_profil</find>
+      <find>user_profi</find>
+      <find>user_prof</find>
+      <find>user_pro</find>
+      <find>user_pr</find>
+      <find>user_p</find>
+      <find>user_</find>
+      <find>u</find>
+      <find>p</find>
+      <find>pr</find>
+      <find>pro</find>
+      <find>prof</find>
+      <find>profi</find>
+      <find>profil</find>
+      <find>profiles</find>
+      <find>profile</find>
+      <find>uprofile</find>
+      <find>usprofile</find>
+      <find>useprofile</find>
+      <find>userprofile</find>
+      <find>service_clubs_manage_profile</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>service_clubs_manage_profile</replace>
+      <replace>userprofiles</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\service_club_manage_profiles</dir>
+      <dir>C:\xampp\htdocs\service_clubs_manage_profile\src</dir>
+      <dir>C:\xampp\htdocs\service_clubs_manage_profile</dir>
+      <dir>C:\xampp\htdocs\userprofiles</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../assetmanage/assetmanage.links.task.yml" />
+        <option value="$PROJECT_DIR$/../assetmanage/assetmanage.module" />
+        <option value="$PROJECT_DIR$/../assetmanage/src/AssetAccessControlHandler.php" />
+        <option value="$PROJECT_DIR$/../assetmanage/src/AssetHtmlRouteProvider.php" />
+        <option value="$PROJECT_DIR$/../assetmanage/src/AssetInterface.php" />
+        <option value="$PROJECT_DIR$/../assetmanage/src/AssetListBuilder.php" />
+        <option value="$PROJECT_DIR$/../assetmanage/src/Entity/Asset.php" />
+        <option value="$PROJECT_DIR$/src/Controller/BlankController.php" />
+        <option value="$PROJECT_DIR$/src/Form/PrivateProfileForm.php" />
+        <option value="$PROJECT_DIR$/userprofiles.module" />
+        <option value="$PROJECT_DIR$/src/PublicProfileInterface.php" />
+        <option value="$PROJECT_DIR$/src/PrivateProfileInterface.php" />
+        <option value="$PROJECT_DIR$/service_club_manage_profiles.info.yml" />
+        <option value="$PROJECT_DIR$/../service_clubs_manage_event/service_clubs_manage_event.info.yml" />
+        <option value="$PROJECT_DIR$/service_clubs_manage_profile.routing.yml" />
+        <option value="$PROJECT_DIR$/service_clubs_manage_profile.links.menu.yml" />
+        <option value="$PROJECT_DIR$/service_clubs_manage_profile.info.yml" />
+        <option value="$PROJECT_DIR$/src/Entity/PrivateProfile.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userprofiles" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../service-project-base" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="030b3ea5-d6af-456e-af90-e078be4c3c71" name="Default" comment="" />
+      <created>1509059316645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509059316645</updated>
+      <workItem from="1509059322484" duration="4525000" />
+      <workItem from="1509065482796" duration="456000" />
+      <workItem from="1509074789826" duration="655000" />
+      <workItem from="1509075497388" duration="42000" />
+      <workItem from="1509080156182" duration="4677000" />
+      <workItem from="1509107249176" duration="366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10721000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5087848" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.49121523" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_certifications.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_certifications_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_contact_email.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_contact_email_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_dob.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_dob_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_firstname.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_homephone.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_homephone_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_image_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_lastname.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_lastname_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_mobile.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_mobile_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_published.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_role.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_role_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.private_profile.private_profile.field_userref.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_address.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_certifications.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_contact_email.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_dob.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_firstname.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_homephone.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_image.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_lastname.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_mobile.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_role.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.field.public_profile.public_profile.field_userref.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_address.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_address_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_certifications.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_contact_email.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_contact_email_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_dob.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_dob_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_firstname.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_firstname_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_homephone.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.private_profile.field_homephone_state.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrivateProfileInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofiles.links.task.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofiles.links.action.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofiles.links.menu.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofiles.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofiles.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofiles.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/PrivateProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.public_profile.field_userref.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/optional/field.storage.public_profile.field_role.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

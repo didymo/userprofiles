@@ -43,5 +43,3 @@ view published public profile entities:
 
 view unpublished public profile entities:
   title: 'View unpublished Public Profile entities'
-
-
