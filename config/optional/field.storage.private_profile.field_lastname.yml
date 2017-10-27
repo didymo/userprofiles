@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: ZuWSzRz60mN3hfbnSTtVlHzN1m-e6RXLTHJDxbnQ9kI
 id: private_profile.field_lastname

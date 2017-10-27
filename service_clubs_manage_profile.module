@@ -2,22 +2,22 @@
 
 /**
  * @file
- * Contains service_clubs_manage_profiles.module..
+ * Contains service_clubs_manage_profile.module..
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Entity;
 use Drupal\user\Entity\User;
-use Drupal\service_clubs_manage_profiles\Entity\PrivateProfile;
-use Drupal\service_clubs_manage_profiles\Entity\PublicProfile;
+use Drupal\service_clubs_manage_profile\Entity\PrivateProfile;
+use Drupal\service_clubs_manage_profile\Entity\PublicProfile;
 
 /**
  * Implements hook_help().
  */
-function service_clubs_manage_profiles_help($route_name, RouteMatchInterface $route_match) {
+function service_clubs_manage_profile_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
-    // Main module help for the service_clubs_manage_profiles module.
-    case 'help.page.service_clubs_manage_profiles':
+    // Main module help for the service_clubs_manage_profile module.
+    case 'help.page.service_clubs_manage_profile':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
       $output .= '<p>' . t('Provides user the power of choosing what to display in their profile') . '</p>';
@@ -31,8 +31,8 @@ function service_clubs_manage_profiles_help($route_name, RouteMatchInterface $ro
  * Implements hook_cron().
  */
 /*
-function service_clubs_manage_profiles_cron() {
-\Drupal::logger('service_clubs_manage_profiles-cron')->error('Running');
+function service_clubs_manage_profile_cron() {
+\Drupal::logger('service_clubs_manage_profile-cron')->error('Running');
 // load the user list and check last
 $users = User::loadMultiple();
 $uids = array_keys($users);
@@ -55,7 +55,7 @@ $publ->delete();
 /**
  * Implements hook_user_insert().
  */
-function service_clubs_manage_profiles_user_insert($account) {
+function service_clubs_manage_profile_user_insert($account) {
   global $base_url;
   // Grab the UID for the user account that was created and load their account.
   $uid = $account->id();
@@ -97,7 +97,7 @@ function service_clubs_manage_profiles_user_insert($account) {
 /**
  * Implements hook_user_delete().
  */
-function service_clubs_manage_profiles_user_delete($account) {
+function service_clubs_manage_profile_user_delete($account) {
   // Load references from deleted account, and delete them too.
   $private_profile = $account->field_privref->entity;
   $public_profile = $account->field_pubref->entity;

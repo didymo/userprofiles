@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.private_profile.field_homephone
   module:
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: HsRQDfwuL_l5Mjn1MmMXDdY3bCf6m-ULek_lJDbcjIg
 id: private_profile.private_profile.field_homephone

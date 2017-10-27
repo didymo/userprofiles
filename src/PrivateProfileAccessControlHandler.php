@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profiles;
+namespace Drupal\service_clubs_manage_profile;
 
 use Drupal\Core\Entity\EntityAccessControlHandler;
 use Drupal\Core\Entity\EntityInterface;
@@ -11,7 +11,7 @@ use Drupal\user\Entity\User;
 /**
  * Access controller for the Private Profile entity.
  *
- * @see \Drupal\service_clubs_manage_profiles\Entity\PrivateProfile.
+ * @see \Drupal\service_clubs_manage_profile\Entity\PrivateProfile.
  */
 class PrivateProfileAccessControlHandler extends EntityAccessControlHandler {
 
@@ -22,7 +22,7 @@ class PrivateProfileAccessControlHandler extends EntityAccessControlHandler {
     $uid = \Drupal::currentUser()->id();
     $user = User::load($uid);
 
-    /** @var \Drupal\service_clubs_manage_profiles\PrivateProfileInterface $entity */
+    /** @var \Drupal\service_clubs_manage_profile\PrivateProfileInterface $entity */
     switch ($operation) {
       case 'view':
         if (!$entity->isPublished()) {

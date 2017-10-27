@@ -1,15 +1,15 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profiles\Form;
+namespace Drupal\service_clubs_manage_profile\Form;
 
 use Drupal\Core\Entity\ContentEntityForm;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\service_clubs_manage_profiles\Entity\PublicProfile;
+use Drupal\service_clubs_manage_profile\Entity\PublicProfile;
 
 /**
  * Form controller for Private Profile edit forms.
  *
- * @ingroup service_clubs_manage_profiles
+ * @ingroup service_clubs_manage_profile
  */
 class PrivateProfileForm extends ContentEntityForm {
 
@@ -17,7 +17,7 @@ class PrivateProfileForm extends ContentEntityForm {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    /* @var $entity \Drupal\service_clubs_manage_profiles\Entity\PrivateProfile */
+    /* @var $entity \Drupal\service_clubs_manage_profile\Entity\PrivateProfile */
     // This stuff should fill the form out for us, based on the entity.
     $form = parent::buildForm($form, $form_state);
     $entity = $this->entity;

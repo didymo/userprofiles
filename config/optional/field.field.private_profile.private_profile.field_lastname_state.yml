@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.private_profile.field_lastname_state
   module:
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: sUyThdiYskQOzlOXpeRbZxaHy4154-G7bNKUHczdrwY
 id: private_profile.private_profile.field_lastname_state

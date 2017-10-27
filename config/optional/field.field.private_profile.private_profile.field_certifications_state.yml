@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.private_profile.field_certifications_state
   module:
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: NgxvpeW8ljru8RVwx1L_s9wOaCYR9Kzb91qTQatkqFE
 id: private_profile.private_profile.field_certifications_state

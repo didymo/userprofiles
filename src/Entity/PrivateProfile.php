@@ -1,37 +1,37 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profiles\Entity;
+namespace Drupal\service_clubs_manage_profile\Entity;
 
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 use Drupal\Core\Entity\ContentEntityBase;
 use Drupal\Core\Entity\EntityChangedTrait;
 use Drupal\Core\Entity\EntityTypeInterface;
-use Drupal\service_clubs_manage_profiles\PrivateProfileInterface;
+use Drupal\service_clubs_manage_profile\PrivateProfileInterface;
 use Drupal\user\UserInterface;
 
 /**
  * Defines the Private Profile entity.
  *
- * @ingroup service_clubs_manage_profiles
+ * @ingroup service_clubs_manage_profile
  *
  * @ContentEntityType(
  *   id = "private_profile",
  *   label = @Translation("Private Profile"),
  *   handlers = {
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
- *     "list_builder" = "Drupal\service_clubs_manage_profiles\PrivateProfileListBuilder",
- *     "views_data" = "Drupal\service_clubs_manage_profiles\Entity\PrivateProfileViewsData",
+ *     "list_builder" = "Drupal\service_clubs_manage_profile\PrivateProfileListBuilder",
+ *     "views_data" = "Drupal\service_clubs_manage_profile\Entity\PrivateProfileViewsData",
  *
  *     "form" = {
- *       "default" = "Drupal\service_clubs_manage_profiles\Form\PrivateProfileForm",
- *       "add" = "Drupal\service_clubs_manage_profiles\Form\PrivateProfileForm",
- *       "edit" = "Drupal\service_clubs_manage_profiles\Form\PrivateEditForm",
- *       "delete" = "Drupal\service_clubs_manage_profiles\Form\PrivateProfileDeleteForm",
+ *       "default" = "Drupal\service_clubs_manage_profile\Form\PrivateProfileForm",
+ *       "add" = "Drupal\service_clubs_manage_profile\Form\PrivateProfileForm",
+ *       "edit" = "Drupal\service_clubs_manage_profile\Form\PrivateEditForm",
+ *       "delete" = "Drupal\service_clubs_manage_profile\Form\PrivateProfileDeleteForm",
  *     },
- *     "access" = "Drupal\service_clubs_manage_profiles\PrivateProfileAccessControlHandler",
+ *     "access" = "Drupal\service_clubs_manage_profile\PrivateProfileAccessControlHandler",
  *     "route_provider" = {
- *       "html" = "Drupal\service_clubs_manage_profiles\PrivateProfileHtmlRouteProvider",
+ *       "html" = "Drupal\service_clubs_manage_profile\PrivateProfileHtmlRouteProvider",
  *     },
  *   },
  *   base_table = "private_profile",

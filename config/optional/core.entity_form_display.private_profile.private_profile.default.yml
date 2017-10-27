@@ -29,7 +29,7 @@ dependencies:
   module:
     - datetime
     - image
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: 1LQlu1EgSeSV9i34QhLR4HdbQG-lSR9l5hcgWAT1QSs
 id: private_profile.private_profile.default

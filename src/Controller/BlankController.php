@@ -1,11 +1,11 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profiles\Controller;
+namespace Drupal\service_clubs_manage_profile\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\user\Entity\User;
-use Drupal\service_clubs_manage_profiles\Entity\PrivateProfile;
-use Drupal\service_clubs_manage_profiles\Entity\PublicProfile;
+use Drupal\service_clubs_manage_profile\Entity\PrivateProfile;
+use Drupal\service_clubs_manage_profile\Entity\PublicProfile;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
 /**

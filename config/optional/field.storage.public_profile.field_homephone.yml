@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: F-XTHZPCluhJhPCRknVMcp9zsapbsNT7NCobI-KMTrM
 id: public_profile.field_homephone

@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.private_profile.field_lastname
   module:
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: P8FP-IBBY0Lq21x1hoqEz8HrS96m_c8g49DrGSh532U
 id: private_profile.private_profile.field_lastname

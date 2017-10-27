@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profiles\Entity;
+namespace Drupal\service_clubs_manage_profile\Entity;
 
 use Drupal\views\EntityViewsData;
 use Drupal\views\EntityViewsDataInterface;

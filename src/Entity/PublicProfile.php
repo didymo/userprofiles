@@ -1,37 +1,37 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profiles\Entity;
+namespace Drupal\service_clubs_manage_profile\Entity;
 
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 use Drupal\Core\Entity\ContentEntityBase;
 use Drupal\Core\Entity\EntityChangedTrait;
 use Drupal\Core\Entity\EntityTypeInterface;
-use Drupal\service_clubs_manage_profiles\PublicProfileInterface;
+use Drupal\service_clubs_manage_profile\PublicProfileInterface;
 use Drupal\user\UserInterface;
 
 /**
  * Defines the Public Profile entity.
  *
- * @ingroup service_clubs_manage_profiles
+ * @ingroup service_clubs_manage_profile
  *
  * @ContentEntityType(
  *   id = "public_profile",
  *   label = @Translation("Public Profile"),
  *   handlers = {
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
- *     "list_builder" = "Drupal\service_clubs_manage_profiles\PublicProfileListBuilder",
- *     "views_data" = "Drupal\service_clubs_manage_profiles\Entity\PublicProfileViewsData",
+ *     "list_builder" = "Drupal\service_clubs_manage_profile\PublicProfileListBuilder",
+ *     "views_data" = "Drupal\service_clubs_manage_profile\Entity\PublicProfileViewsData",
  *
  *     "form" = {
- *       "default" = "Drupal\service_clubs_manage_profiles\Form\PublicProfileForm",
- *       "add" = "Drupal\service_clubs_manage_profiles\Form\PublicProfileForm",
- *       "edit" = "Drupal\service_clubs_manage_profiles\Form\PublicProfileForm",
- *       "delete" = "Drupal\service_clubs_manage_profiles\Form\PublicProfileDeleteForm",
+ *       "default" = "Drupal\service_clubs_manage_profile\Form\PublicProfileForm",
+ *       "add" = "Drupal\service_clubs_manage_profile\Form\PublicProfileForm",
+ *       "edit" = "Drupal\service_clubs_manage_profile\Form\PublicProfileForm",
+ *       "delete" = "Drupal\service_clubs_manage_profile\Form\PublicProfileDeleteForm",
  *     },
- *     "access" = "Drupal\service_clubs_manage_profiles\PublicProfileAccessControlHandler",
+ *     "access" = "Drupal\service_clubs_manage_profile\PublicProfileAccessControlHandler",
  *     "route_provider" = {
- *       "html" = "Drupal\service_clubs_manage_profiles\PublicProfileHtmlRouteProvider",
+ *       "html" = "Drupal\service_clubs_manage_profile\PublicProfileHtmlRouteProvider",
  *     },
  *   },
  *   base_table = "public_profile",

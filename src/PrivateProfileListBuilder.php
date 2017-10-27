@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\service_clubs_manage_profiles;
+namespace Drupal\service_clubs_manage_profile;
 
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityListBuilder;
@@ -10,7 +10,7 @@ use Drupal\Core\Url;
 /**
  * Defines a class to build a listing of Private Profile entities.
  *
- * @ingroup service_clubs_manage_profiles
+ * @ingroup service_clubs_manage_profile
  */
 class PrivateProfileListBuilder extends EntityListBuilder {
 
@@ -29,7 +29,7 @@ class PrivateProfileListBuilder extends EntityListBuilder {
    * {@inheritdoc}
    */
   public function buildRow(EntityInterface $entity) {
-    /* @var $entity \Drupal\service_clubs_manage_profiles\Entity\PrivateProfile */
+    /* @var $entity \Drupal\service_clubs_manage_profile\Entity\PrivateProfile */
     $row['id'] = $entity->id();
     $row['name'] = $this->l(
       $entity->label(),

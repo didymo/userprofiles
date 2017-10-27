@@ -6,7 +6,7 @@ dependencies:
     - field.storage.private_profile.field_image
   module:
     - image
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: 8KlXwUZdBA7JIXw55HhhLzWg_jXaAX_Wh36-htnUxWs
 id: private_profile.private_profile.field_image

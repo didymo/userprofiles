@@ -5,7 +5,7 @@ dependencies:
   module:
     - file
     - image
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: 4Ob1rBdOnivc5x_WicY-aSIZICOLzoXpHHEY88Km_Yo
 id: public_profile.field_image

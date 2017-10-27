@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.private_profile.field_mobile_state
   module:
-    - service_clubs_manage_profiles
+    - service_clubs_manage_profile
 _core:
   default_config_hash: b33eE11HSQpxMLUgENDsejE6VrB-Ylj9qz4nYBhhS9k
 id: private_profile.private_profile.field_mobile_state
