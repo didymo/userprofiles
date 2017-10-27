@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="030b3ea5-d6af-456e-af90-e078be4c3c71" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/service_club_manage_profiles.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/optional/userprofiles.profile.yml" afterPath="$PROJECT_DIR$/config/optional/service_clubs_manage_profile.profile.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/optional/userprofiles.profilecreate.yml" afterPath="$PROJECT_DIR$/config/optional/service_clubs_manage_profile.profilecreate.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.info.yml" afterPath="$PROJECT_DIR$/service_clubs_manage_profile.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.links.menu.yml" afterPath="$PROJECT_DIR$/service_clubs_manage_profile.links.menu.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_clubs_manage_profile.routing.yml" afterPath="$PROJECT_DIR$/service_clubs_manage_profile.routing.yml" />
-    </list>
+    <list default="true" id="030b3ea5-d6af-456e-af90-e078be4c3c71" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +39,8 @@
       <file leaf-file-name="service_clubs_manage_profile.routing.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service_clubs_manage_profile.routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            <state relative-caret-position="205">
+              <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -376,12 +367,12 @@
       <workItem from="1509065482796" duration="456000" />
       <workItem from="1509074789826" duration="655000" />
       <workItem from="1509075497388" duration="42000" />
-      <workItem from="1509080156182" duration="4000000" />
+      <workItem from="1509080156182" duration="4677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9678000" />
+    <option name="totallyTimeSpent" value="10355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -819,8 +810,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service_clubs_manage_profile.routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="205">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
           <folding />
         </state>
       </provider>
