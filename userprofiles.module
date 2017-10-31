@@ -6,9 +6,6 @@
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
-use Drupal\Core\Controller\ControllerBase;
-use Drupal\Core\Entity\EntityInterface;
-use Drupal\node\Entity\Node;
 use Drupal\Core\Entity;
 use Drupal\user\Entity\User;
 use Drupal\userprofiles\Entity\PrivateProfile;
@@ -30,74 +27,71 @@ function userprofiles_help($route_name, RouteMatchInterface $route_match) {
   }
 }
 
-
 /**
  * Implements hook_cron().
  */
 /*
 function userprofiles_cron() {
-	\Drupal::logger('userprofiles-cron')->error('Running');
-	//load the user list and check last
-	$users = User::loadMultiple();
-	$uids = array_keys($users);
-	$ulastID = end($uids);
-	//load the privates and check last
-	$privates = PrivateProfile::loadMultiple();
-	$ppids = array_keys($privates);
-	$plastID = end($ppids);
+\Drupal::logger('userprofiles-cron')->error('Running');
+// load the user list and check last
+$users = User::loadMultiple();
+$uids = array_keys($users);
+$ulastID = end($uids);
+// load the privates and check last
+$privates = PrivateProfile::loadMultiple();
+$ppids = array_keys($privates);
+$plastID = end($ppids);
 
-	foreach ($ppids as $pid) {
-		if(!(in_array($pid, $uids))) {
-			$priv = PrivateProfile::load($pid);
-			$publ = PublicProfile::load($pid);
-			$priv->delete();
-			$publ->delete();
-		}
-	}
+foreach ($ppids as $pid) {
+if(!(in_array($pid, $uids))) {
+$priv = PrivateProfile::load($pid);
+$publ = PublicProfile::load($pid);
+$priv->delete();
+$publ->delete();
+}
+}
 }*/
 
 /**
  * Implements hook_user_insert().
  */
 function userprofiles_user_insert($account) {
-    global $base_url;
-    // Grab the UID for the user account that was created and load their account
-    $uid = $account->id();
-    $user = User::load($uid);
+  global $base_url;
+  // Grab the UID for the user account that was created and load their account.
+  $uid = $account->id();
+  $user = User::load($uid);
 
-    // We need to check if the entity reference in the User account is set,
-    // if not, then we have to create a blank entity and go from there
-    if (!isset($user->field_privref->entity) && !isset($user->field_pubref->entity)) {
-      // Create the blank PrivateProfile entity
-      $private_profile = PrivateProfile::create([
-        'label' => $account->label(),
-        'name' => $account->label(),
-        'field_userref' => $user
-      ]);
-      $private_profile->save();
+  // We need to check if the entity reference in the User account is set,
+  // if not, then we have to create a blank entity and go from there.
+  if (!isset($user->field_privref->entity) && !isset($user->field_pubref->entity)) {
+    // Create the blank PrivateProfile entity.
+    $private_profile = PrivateProfile::create([
+      'label' => $account->label(),
+      'name' => $account->label(),
+      'field_userref' => $user,
+    ]);
+    $private_profile->save();
 
-      // Create the blank PublicProfile entity
-      $public_profile = PublicProfile::create([
-        'label' => $account->label(),
-        'name' => $account->label(),
-        'field_userref' => $user
-      ]);
-      $public_profile->status = 0;
-      $public_profile->save();
+    // Create the blank PublicProfile entity.
+    $public_profile = PublicProfile::create([
+      'label' => $account->label(),
+      'name' => $account->label(),
+      'field_userref' => $user,
+    ]);
+    $public_profile->status = 0;
+    $public_profile->save();
 
-      $private_profile->field_public_ref->value = $public_profile->id();
-      //drupal_set_message($private_profile->field_public_ref->value);
+    $private_profile->field_public_ref->value = $public_profile->id();
+    // drupal_set_message($private_profile->field_public_ref->value);
+    // Set the user accounts reference.
+    $user->field_privref->entity = $private_profile;
+    $user->field_pubref->entity = $public_profile;
 
-      // Set the user accounts reference
-      $user->field_privref->entity = $private_profile;
-      $user->field_pubref->entity = $public_profile;
+    $user->field_publink = $base_url . "/profile/" . $public_profile->id() . "/view";
+    $user->field_publink->title = "View Public Profile";
 
-      $user->field_publink = $base_url . "/profile/" . $public_profile->id() . "/view";
-      $user->field_publink->title = "View Public Profile";
-
-
-      $user->save();
-    }
+    $user->save();
+  }
 }
 
 /**
@@ -111,40 +105,3 @@ function userprofiles_user_delete($account) {
   $private_profile->delete();
   $public_profile->delete();
 }
-
-/*
-function userprofiles_user_update($account) {
-    $uid = $account->id();
-    $user = User::load($uid);
-
-    $fields_private = array();
-    $fields_public = array();
-
-    $entity_type_id = 'private_profile';
-    $bundle = 'private_profile';
-    foreach (\Drupal::entityManager()->getFieldDefinitions($entity_type_id, $bundle) as $field_name => $field_definition) {
-        if (!empty($field_definition->getTargetBundle())) {
-            array_push($fields_private,$field_name);
-        }
-    }
-
-    $private_id = db_query("SELECT field_userref_target_id FROM private_profile__field_userref WHERE entity_id = :id",array("id" => $uid))->fetchField();
-    echo $private_id;
-    if(is_numeric($private_id))
-    {
-        $entity_type_id = 'public_profile';
-        $bundle = 'public_profile';
-        foreach (\Drupal::entityManager()->getFieldDefinitions($entity_type_id, $bundle) as $field_name => $field_definition) {
-            if (!empty($field_definition->getTargetBundle())) {
-                array_push($fields_public,$field_name);
-            }
-        }
-        $fields_update = array_intersect($fields_private,$fields_public);
-
-        PublicProfile::load($user)
-            ->save();
-
-        drupal_set_message($this->t('Function running'));
-    }
-
-}*/
