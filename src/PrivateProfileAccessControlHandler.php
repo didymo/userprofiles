@@ -7,8 +7,6 @@ use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\Access\AccessResult;
 use Drupal\user\Entity\User;
-use Drupal\userprofiles\Entity\PrivateProfile;
-use Drupal\userprofiles\Entity\PublicProfile;
 
 /**
  * Access controller for the Private Profile entity.

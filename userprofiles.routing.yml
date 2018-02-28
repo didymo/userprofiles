@@ -22,14 +22,14 @@ userprofiles.accessProfileLink:
   requirements:
     _permission: 'access content entity controllers'
 
-userprofile.profilelist:
+userprofiles.profilelist:
   path: '/profile-list'
   defaults:
     _title: 'Profile List'
   requirements:
     _permission: 'access content'
 
-userprofile.editprofile:
+userprofiles.editprofile:
   path: '/profile/accessProfile'
   defaults:
     _title: 'Edit profile'
@@ -37,7 +37,7 @@ userprofile.editprofile:
   requirements:
     _permission: 'edit private profile entities'
 
-userprofile.createUser:
+userprofiles.createUser:
   path: '/admin/people/create'
   defaults:
     _title: 'Add User'
