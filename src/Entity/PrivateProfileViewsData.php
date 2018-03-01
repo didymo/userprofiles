@@ -16,11 +16,11 @@ class PrivateProfileViewsData extends EntityViewsData implements EntityViewsData
   public function getViewsData() {
     $data = parent::getViewsData();
 
-    $data['private_profile']['table']['base'] = [
+    $data['private_profile']['table']['base'] = array(
       'field' => 'id',
       'title' => $this->t('Private Profile'),
       'help' => $this->t('The Private Profile ID.'),
-    ];
+    );
 
     return $data;
   }

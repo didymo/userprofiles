@@ -63,9 +63,9 @@ class PrivateProfile extends ContentEntityBase implements PrivateProfileInterfac
    */
   public static function preCreate(EntityStorageInterface $storage_controller, array &$values) {
     parent::preCreate($storage_controller, $values);
-    $values += [
+    $values += array(
       'user_id' => \Drupal::currentUser()->id(),
-    ];
+    );
   }
 
   /**
@@ -164,41 +164,41 @@ class PrivateProfile extends ContentEntityBase implements PrivateProfileInterfac
       ->setSetting('handler', 'default')
       ->setDefaultValueCallback('Drupal\node\Entity\Node::getCurrentUserId')
       ->setTranslatable(TRUE)
-      ->setDisplayOptions('view', [
+      ->setDisplayOptions('view', array(
         'label' => 'hidden',
         'type' => 'author',
         'weight' => 0,
-      ])
-      ->setDisplayOptions('form', [
+      ))
+      ->setDisplayOptions('form', array(
         'type' => 'entity_reference_autocomplete',
         'weight' => 5,
-        'settings' => [
+        'settings' => array(
           'match_operator' => 'CONTAINS',
           'size' => '60',
           'autocomplete_type' => 'tags',
           'placeholder' => '',
-        ],
-      ])
+        ),
+      ))
       ->setDisplayConfigurable('form', TRUE)
       ->setDisplayConfigurable('view', TRUE);
 
     $fields['name'] = BaseFieldDefinition::create('string')
       ->setLabel(t('Name'))
       ->setDescription(t('The name of the Private Profile entity.'))
-      ->setSettings([
+      ->setSettings(array(
         'max_length' => 50,
         'text_processing' => 0,
-      ])
+      ))
       ->setDefaultValue('')
-      ->setDisplayOptions('view', [
+      ->setDisplayOptions('view', array(
         'label' => 'above',
         'type' => 'string',
         'weight' => -4,
-      ])
-      ->setDisplayOptions('form', [
+      ))
+      ->setDisplayOptions('form', array(
         'type' => 'string_textfield',
         'weight' => -4,
-      ])
+      ))
       ->setDisplayConfigurable('form', TRUE)
       ->setDisplayConfigurable('view', TRUE);
 
@@ -210,10 +210,10 @@ class PrivateProfile extends ContentEntityBase implements PrivateProfileInterfac
     $fields['langcode'] = BaseFieldDefinition::create('language')
       ->setLabel(t('Language code'))
       ->setDescription(t('The language code for the Private Profile entity.'))
-      ->setDisplayOptions('form', [
+      ->setDisplayOptions('form', array(
         'type' => 'language_select',
         'weight' => 10,
-      ])
+      ))
       ->setDisplayConfigurable('form', TRUE);
 
     $fields['created'] = BaseFieldDefinition::create('created')

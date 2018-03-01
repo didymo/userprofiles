@@ -13,6 +13,8 @@ use Drupal\user\EntityOwnerInterface;
  */
 interface PrivateProfileInterface extends ContentEntityInterface, EntityChangedInterface, EntityOwnerInterface {
 
+  // Add get/set methods for your configuration properties here.
+
   /**
    * Gets the Private Profile name.
    *
@@ -65,7 +67,7 @@ interface PrivateProfileInterface extends ContentEntityInterface, EntityChangedI
    * Sets the published status of a Private Profile.
    *
    * @param bool $published
-   *   TRUE to set to published, FALSE to set it to unpublished.
+   *   TRUE to set this Private Profile to published, FALSE to set it to unpublished.
    *
    * @return \Drupal\userprofiles\PrivateProfileInterface
    *   The called Private Profile entity.
