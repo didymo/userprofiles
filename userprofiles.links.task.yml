@@ -39,3 +39,4 @@ entity.public_profile.delete_form:
   base_route:  entity.public_profile.canonical
   title: Delete
   weight: 10
+

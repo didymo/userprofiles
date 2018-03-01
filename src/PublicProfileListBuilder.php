@@ -34,9 +34,9 @@ class PublicProfileListBuilder extends EntityListBuilder {
     $row['name'] = $this->l(
       $entity->label(),
       new Url(
-        'entity.public_profile.edit_form', [
+        'entity.public_profile.edit_form', array(
           'public_profile' => $entity->id(),
-        ]
+        )
       )
     );
     return $row + parent::buildRow($entity);

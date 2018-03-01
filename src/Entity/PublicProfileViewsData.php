@@ -16,11 +16,11 @@ class PublicProfileViewsData extends EntityViewsData implements EntityViewsDataI
   public function getViewsData() {
     $data = parent::getViewsData();
 
-    $data['public_profile']['table']['base'] = [
+    $data['public_profile']['table']['base'] = array(
       'field' => 'id',
       'title' => $this->t('Public Profile'),
       'help' => $this->t('The Public Profile ID.'),
-    ];
+    );
 
     return $data;
   }
